@@ -2,7 +2,6 @@ row = ''
 with open("C:\\Users\\Dylan\\gitrep\\AdventOfCode2024\\Day3\\Input File.txt", "r") as file:
     for line in file:
         row += line
-print(row)
 valid = []
 for i in range(0, len(row)):
     checkString = ''
